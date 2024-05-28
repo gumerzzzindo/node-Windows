@@ -11,3 +11,4 @@ Para ello, hemos instalado las siguientes dependencias:
 ```bash
 npm init -y
 npm install playwright
+npm install readline-sync
