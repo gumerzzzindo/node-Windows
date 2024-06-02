@@ -13,3 +13,9 @@ export function resta ( a, b ){
 export function multi (a,b) {
     return a * b
 }
+export function parOimpar (a){
+    if ( a % 2 === 0)
+        return true
+    else
+    return false
+}

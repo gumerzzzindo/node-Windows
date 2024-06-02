@@ -1,4 +1,4 @@
-import { suma,resta,divi,multi } from './funciones.mjs'
+import { suma,resta,divi,multi,parOimpar } from './funciones.mjs'
 import readlineSync from 'readline-sync';
 // Añadimos para poder hacer inputs
 
@@ -21,5 +21,9 @@ if (decision === 'suma' || decision === 'Suma') {
 }else {
     console.log('Operación no valida')
 }
-
-console.log(result)
+// Verificacion de par o impar
+const verificacion = parOimpar(result)
+if (verificacion === true){
+    console.log("El resultado es par", result)
+}else
+console.log("El resultado es impar", result)
